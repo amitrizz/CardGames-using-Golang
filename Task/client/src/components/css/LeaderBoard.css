@@ -1,0 +1,23 @@
+.leaderboardbody{
+    width: 100%;
+    /* background: #e46b6b; */
+    display: flex;
+    /* justify-content: center; */
+    /* overflow: hiddn; */
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-top: 20px;
+}
+table{
+
+    width: 500px;
+    /* text-align: center; */
+    background: #f5d7d7;
+    box-shadow: 3px 2px 25px 1px gray;
+    border-radius: 3px;
+}
+th,td{
+    text-align: center;
+    /* border: 1px solid gray; */
+}

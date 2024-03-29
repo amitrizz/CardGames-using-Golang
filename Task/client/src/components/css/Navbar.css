@@ -1,0 +1,34 @@
+.navstyle{
+    display: flex;
+    background: #ca5bfd79;
+    justify-content: space-between;
+    padding: 5px 20px;
+    box-shadow:1px 2px 35px 2px gray;
+}
+.navstyle h3{
+    text-align: center;
+    flex-basis: 20%;
+    padding: 5px;
+}
+.navbarlink{
+    display: flex;
+    flex-basis: 60%;
+    /* background: #85e0cd; */
+}
+
+.navbarlink ul{
+    display: flex;
+    width: 100%;
+    height: inherit;
+    /* text-decoration: none; */
+    justify-content: space-around;
+    padding-top: 5px;
+    align-items: center;
+    list-style: none;
+}
+
+.navbarlink ul button{
+    background: transparent;
+    border: none;
+    color: gray;
+}

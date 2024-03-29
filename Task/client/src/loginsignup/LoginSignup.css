@@ -1,0 +1,32 @@
+
+
+.contain {
+    /* background: #d38d8d; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+form {
+    /* border: 1px solid red; */
+    padding: 50px;
+    background: #eceaea;
+    box-shadow: 12px 12px 20px 10px rgba(0, 0, 255, 0.2);
+    border-radius: 5px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: darkgrey;
+}
+
+.link-styles {
+    text-decoration: none;
+    color: rgba(72, 79, 99, 0.747);
+}

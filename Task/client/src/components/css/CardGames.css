@@ -1,0 +1,42 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* flex: ; */
+}
+
+.card {
+    width: 230px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px rgba(233, 200, 200, 0.377);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: tranform ease-in;
+}
+
+.card:hover {
+    /* width: 255px;
+    height: 310px; */
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(150px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}

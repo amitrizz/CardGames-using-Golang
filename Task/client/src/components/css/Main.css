@@ -1,0 +1,14 @@
+.mainpage{
+    /* background: #745454; */
+    height: 80vh;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainpage li{
+    list-style: none;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
