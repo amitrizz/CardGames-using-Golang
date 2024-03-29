@@ -17,7 +17,7 @@ function Login() {
     try {
 
 
-      const res = await axios.post(`https://react-golangproject-2.onrender.com/login`, {
+      const res = await axios.post(`https://react-golangproject.onrender.com/login`, {
         Username, Password
       })
       if (res.status == 200) {

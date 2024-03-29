@@ -13,7 +13,7 @@ function Signup() {
     // Perform login logic
     event.preventDefault();
 
-    const res = await axios.post(`https://react-golangproject-2.onrender.com/register`, {
+    const res = await axios.post(`https://react-golangproject.onrender.com/register`, {
       Username, Password
     })
     console.log(res);
