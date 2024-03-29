@@ -23,7 +23,7 @@ function Main() {
                 };
 
                 // Send the request with the configured headers
-                const response = await axios.get(`http://localhost:8000`, { headers: headers });
+                const response = await axios.get(`https://react-golangproject-2.onrender.com`, { headers: headers });
                 if (response.status === 200) {
                     dispatch(changeValidation(true))
                     console.log(response);
