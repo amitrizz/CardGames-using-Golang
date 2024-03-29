@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  server_app:
+    build: .
+    restart: always
+    ports: 
+    - "8000:8000"
+    image: app:server_app
+    container_name: server_app
+    
+  nginx:
+    build: ./nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - server_app
+    image: app:server_nginx
+    container_name: server_nginx
